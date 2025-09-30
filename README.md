@@ -1,6 +1,6 @@
 # Auth Pages em HTML e CSS
 
-Projeto desenvolvido na disciplina **ISM** com o professor **Lucas Corrêa**, que consiste na criação de páginas de autenticação (**login e registro**) utilizando **HTML** e **CSS**.  
+Projeto está sendo desenvolvido na disciplina **LIMA** com o professor **Lucas Corrêa**, que consiste na criação de páginas de autenticação (**login e registro**) utilizando **HTML** e **CSS**.  
 O objetivo é praticar a estruturação de layouts de páginas voltadas para autenticação de usuários.
 
 ## 📌 Tecnologias utilizadas
