@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./../styles/signin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="./../js/login.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>SignIn</title>
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="form-container">
+        <h1>Welcome back!</h1>
+        <p>Enter your credentials to access your account</p>
+
+        <form id="loginForm">
+          <fieldset>
+            <label for="email">Email address</label>
+            <input placeholder="Enter your email" type="email" name="email" id="email" required>
+          </fieldset>
+
+          <fieldset>
+            <div class="title-wrapper">
+              <label for="password">Password</label>
+              <a href="#">forgot password</a>
+            </div>
+            <input placeholder="Enter your password" type="password" name="password" id="password" required>
+          </fieldset>
+
+          <fieldset class="checkbox">
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Remember for 30 days</label>
+          </fieldset>
+
+          <button type="submit">Login</button>
+        </form>
+
+        <div class="divider">
+          <div class="line"></div>
+          <p>Or</p>
+          <div class="line"></div>
+        </div>
+
+        <div class="sso-container">
+          <button>
+            <img src="./../icons/google-logo.svg" alt="Logo da Google">
+            <p>Sign in with Google</p>
+          </button>
+
+          <button>
+            <img src="./../icons/apple-logo.svg" alt="Logo da Apple">
+            <p>Sign in with Apple</p>
+          </button>
+        </div>
+
+        <div class="redirect-sign-up">Don't have an account? <a href=""> Sign Up</a></div>
+      </div>
+    </section>
+
+    <img src="./../images/shrek.jpg" alt="Foto de uma costela de Adão.">
+  </main>
+</body>
+
+</html>
